@@ -217,7 +217,7 @@ class RGBA:
     def color(self) -> tuple[int, int, int, int | float]:
         return (self.__red, self.__green, self.__blue, self.__alpha)
     
-    def to_hex(self, upper: bool = True, hashtag: bool = True) -> str:
+    def to_hexa(self, upper: bool = True, hashtag: bool = True) -> str:
         res = f"{self.__red:02x}{self.__green:02x}{self.__blue:02x}{int(self.__alpha * 100):02}"
 
         if upper: res = res.upper()

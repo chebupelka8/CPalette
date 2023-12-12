@@ -13,11 +13,11 @@ class ColorConverter:
     
     @staticmethod
     def rgba_to_hexa(rgba: RGBA) -> HEXA:
-        return None
+        return HEXA(rgba.to_hexa())
     
     @staticmethod
     def hexa_to_rgba(hexa: HEXA) -> RGBA:
-        return None
+        return RGBA(hexa.to_rgba())
     
     @staticmethod
     def mix_rgb(*colors: RGB) -> RGB:
