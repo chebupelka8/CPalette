@@ -1,5 +1,5 @@
 # color_palette
 
 ```python
-  print("hello world")
+color_palette/example_preview.py
 ```
