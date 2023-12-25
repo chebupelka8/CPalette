@@ -1,3 +1,17 @@
+# HEX
+    `class HEX: -> None`
+        color (str): "#FFFFFF" | "FFFFFF" | "ffffff"
+
+        if color is not string, raises TypeError
+        if color is wrong, raises ValueError
+    
+    >>> HEX("ffffff") -> HEX(color="#FFFFFF")
+    >>> HEX("#FFFFFF").to_rgb() -> (255, 255, 255)
+    >>> HEX("#3e3d3d").color -> '#3E3D3D'
+    >>> HEX("#xxx") -> ValueError: Wrong color at '#xxx'
+    >>> HEX("#QQQQQQ") -> ValueError: Wrong color at '#QQQQQQ'
+
+
 <h2>Examples</h2>
 <h3>Preview color</h3>
 
