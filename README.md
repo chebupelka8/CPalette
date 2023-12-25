@@ -1,6 +1,4 @@
 # class HEX
-class HEX: -> None
-    color (str): "#FFFFFF" | "FFFFFF" | "ffffff"
 
 ```python
 >>> HEX("ffffff") -> HEX(color="#FFFFFF")
@@ -9,6 +7,9 @@ class HEX: -> None
 >>> HEX("#xxx") -> ValueError: Wrong color at '#xxx'
 >>> HEX("#QQQQQQ") -> ValueError: Wrong color at '#QQQQQQ'
 ```
+
+# class RGB
+
 
 
 <h2>Examples</h2>
