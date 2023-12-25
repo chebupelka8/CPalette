@@ -1,22 +1,21 @@
 # class HEX
-
 ```python
->>> HEX("ffffff") -> HEX(color="#FFFFFF")
->>> HEX("#FFFFFF").to_rgb() -> (255, 255, 255)
->>> HEX("#3e3d3d").color -> '#3E3D3D'
->>> HEX("#xxx") -> ValueError: Wrong color at '#xxx'
->>> HEX("#QQQQQQ") -> ValueError: Wrong color at '#QQQQQQ'
+HEX("ffffff") -> HEX(color="#FFFFFF")
+HEX("#FFFFFF").to_rgb() -> (255, 255, 255)
+HEX("#3e3d3d").color -> '#3E3D3D'
+HEX("#xxx") -> ValueError: Wrong color at '#xxx'
+HEX("#QQQQQQ") -> ValueError: Wrong color at '#QQQQQQ'
 ```
 
 # class RGB
 ```python
->>> RGB(0, 0, 0) -> RGB(r=0, g=0, b=0)
->>> RGB(255, 255, 255).to_hex(upper=True, hashtag=False) -> FFFFFF
->>> RGB(30, 30, 30).color -> (30, 30, 30)
->>> RGB(256, -2, 400) -> ValueError: Wrong color at (r=256, g=-2, b=400)
->>> RGB(100, 100, 100) + RGB(30, 30, 30) -> RGB(r=65, g=65, b=65) # WARNING!!! Don't use this if you have more than 2 color
+RGB(0, 0, 0) -> RGB(r=0, g=0, b=0)
+RGB(255, 255, 255).to_hex(upper=True, hashtag=False) -> FFFFFF
+RGB(30, 30, 30).color -> (30, 30, 30)
+RGB(256, -2, 400) -> ValueError: Wrong color at (r=256, g=-2, b=400)
+RGB(100, 100, 100) + RGB(30, 30, 30) -> RGB(r=65, g=65, b=65) # WARNING!!! Don't use this if you have more than 2 color
 
->>> ColorConverter.mix_rgb(RGB(100, 100, 100), RGB(30, 30, 30), RGB(255, 255, 255)) -> RGB(r=128, g=128, b=128) # If you have more than 2 colors, use this.
+ColorConverter.mix_rgb(RGB(100, 100, 100), RGB(30, 30, 30), RGB(255, 255, 255)) -> RGB(r=128, g=128, b=128) # If you have more than 2 colors, use this.
 ```
 
 
