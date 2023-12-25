@@ -1,5 +1,5 @@
 # color_palette
 
 ```python
-color_palette/example_preview.py
+color_palette/preview_example.py
 ```
