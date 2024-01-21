@@ -5,7 +5,7 @@
 <h1></h1>
 <p align="center">
 
-  <img src="https://img.shields.io/badge/version-v0.2-green">
+  <img src="https://img.shields.io/pypi/v/cpalette">
   <img src="https://img.shields.io/github/license/chebupelka8/color_palette">
   <img src="https://img.shields.io/github/commit-activity/t/chebupelka8/color_palette"> 
   <img src="https://img.shields.io/github/stars/chebupelka8/color_palette">
