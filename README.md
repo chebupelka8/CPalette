@@ -17,7 +17,7 @@ Color palette is a python library for working with various color formats such as
 
 
 <h1>Wiki</h1>
-<h3>class HEX</h3>
+<h3>HEX</h3>
 
 ```python
 HEX("ffffff") -> HEX(color="#FFFFFF")
@@ -27,7 +27,7 @@ HEX("#xxx") -> ValueError: Wrong color at '#xxx'
 HEX("#QQQQQQ") -> ValueError: Wrong color at '#QQQQQQ'
 ```
 
-<h3>class RGB</h3>
+<h3>RGB</h3>
 
 ```python
 RGB(0, 0, 0) -> RGB(r=0, g=0, b=0)
