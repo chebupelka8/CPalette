@@ -14,7 +14,11 @@
 </p>
 Color palette is a python library for working with various color formats such as RGB and HEX. This project is currently under development, but you can already use this library to work with colors. So far, color_palette supports only HEX and RGB, but other formats will be added in the future.
 
+<h1>Download</h1>
 
+```
+pip install cpalette
+```
 
 <h1>Wiki</h1>
 <h3>HEX</h3>
