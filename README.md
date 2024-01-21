@@ -8,20 +8,15 @@
   <img src="https://img.shields.io/badge/version-v0.2-green">
   <img src="https://img.shields.io/github/license/chebupelka8/color_palette">
   <img src="https://img.shields.io/github/commit-activity/t/chebupelka8/color_palette"> 
+  <img src="https://img.shields.io/github/stars/chebupelka8/color_palette">
+  <img src="https://img.shields.io/github/watchers/chebupelka8/color_palette">
   
 </p>
 
+<h1>Wiki</h1>
 
+<h3>class HEX</h3>
 
-
-
-
-
-
-
-
-
-# class HEX
 ```python
 HEX("ffffff") -> HEX(color="#FFFFFF")
 HEX("#FFFFFF").to_rgb() -> (255, 255, 255)
@@ -30,7 +25,8 @@ HEX("#xxx") -> ValueError: Wrong color at '#xxx'
 HEX("#QQQQQQ") -> ValueError: Wrong color at '#QQQQQQ'
 ```
 
-# class RGB
+<h3>class RGB</h3>
+
 ```python
 RGB(0, 0, 0) -> RGB(r=0, g=0, b=0)
 RGB(255, 255, 255).to_hex(upper=True, hashtag=False) -> FFFFFF
