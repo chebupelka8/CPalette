@@ -16,7 +16,7 @@ Color palette is a python library for working with various color formats such as
 
 <h1>Download</h1>
 
-```cmd
+```sh
 pip install cpalette
 ```
 
