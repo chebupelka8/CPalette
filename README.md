@@ -25,7 +25,7 @@ pip install cpalette
 ```
 
 <h1>Wiki</h1>
-<h3>Import</h3>
+<h3>import</h3>
 
 ```python
 from cpalette import *
@@ -55,14 +55,14 @@ ColorConverter.mix_rgb(RGB(100, 100, 100), RGB(30, 30, 30), RGB(255, 255, 255)) 
 
 
 <h2>Examples</h2>
-<h3>Preview color</h3>
+<h3>preview color</h3>
 
 ```python
 from cpalette import Previewer, RGB
 
 Previewer.preview(RGB(30, 30, 30))
 ```
-<h3>Convert colors</h3>
+<h3>convert colors</h3>
 
 ```python
 from cpalette import RGB, HEX, ColorConverter
@@ -70,7 +70,7 @@ from cpalette import RGB, HEX, ColorConverter
 print(ColorConverter.hex_to_rgb(HEX("#dd33bd"))) # RGB(r=221, g=51, b=189)
 print(ColorConverter.rgb_to_hex(RGB(156, 48, 39))) # HEX(color=#9C3027)
 ```
-<h3>Mix colors</h3>
+<h3>mix colors</h3>
 
 ```python
 from cpalette import RGB, ColorConverter
