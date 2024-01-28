@@ -20,7 +20,7 @@
 
 <h1>Download</h1>
 
-```sh
+```commandline
 pip install cpalette
 ```
 
