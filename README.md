@@ -15,7 +15,7 @@
 <b>CPalette</b> is a python library for working with various color formats such as RGB and HEX. This project is currently under development, but you can already use this library to work with colors. So far, color_palette supports only HEX and RGB, but other formats will be added in the future.
 
 <br><b>PyPi</b> - https://pypi.org/project/cpalette/
-<br><b>GitHub</b> - https://github.com/chebupelka8/color_palette
+<br><b>GitHub</b> - https://github.com/chebupelka8/CPalette
 
 
 <h1>Download</h1>
